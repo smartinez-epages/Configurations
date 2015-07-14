@@ -1,0 +1,21 @@
+
+rename-session epages
+rename-window -t 1 main
+
+set-option default-path /srv/epages/eproot
+new-window -n eproot
+split-window -h -p 50 -t 1
+split-window -v -p 50 -t 2
+select-pane -t 1
+
+set-option default-path /srv/epages/eproot/Shared/Log
+new-window -n logs
+split-window -v -p 25 -t 1
+select-pane -t 1
+
+new-window -n mysql 'mysql -u root'
+
+select-window -t main
+
+set-option default-path .
+

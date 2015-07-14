@@ -1,0 +1,5 @@
+
+new-window -n monitor htop
+split-window -v -p 30 -t 1 'tailf /var/log/messages'
+select-pane -t 1
+

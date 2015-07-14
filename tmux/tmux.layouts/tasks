@@ -1,0 +1,6 @@
+
+new-window -n tasks
+split-window -h -p 30 -t 1
+split-window -v -p 25 -t 2
+select-pane -t 1
+
