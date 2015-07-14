@@ -4,5 +4,6 @@ Configurations
 
 Content:
 
-    [tmux]  Is a "terminal multiplexer: it enables a number of terminals (or windows), each running a separate program.
+    [tmux]  Is a "terminal multiplexer: it enables a number of terminals (or 
+            windows), each running a separate program.
    
